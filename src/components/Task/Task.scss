@@ -1,0 +1,14 @@
+.card {
+  transition: 0.5s;
+  .content {
+    position: relative;
+  }
+  &:hover {
+    box-shadow: -2px 2px 15px 2px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  &__buttons {
+    position: absolute;
+    top: 106%;
+  }
+}
